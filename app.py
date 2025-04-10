@@ -10,10 +10,10 @@ CORS(app)  # Habilita CORS para todas las rutas
 
 # Configuración de la base de datos
 db_config = {
-    'host': 'database-1.ccpw8o44uuu5.us-east-1.rds.amazonaws.com',
+    'host': 'database-1.ct2404i2q52h.us-east-2.rds.amazonaws.com',
     'user': 'admin',
     'password': '12345678',
-    'db': 'database-1',
+    'db': 'database1',
     'charset': 'utf8mb4',
     'cursorclass': pymysql.cursors.DictCursor
 }
